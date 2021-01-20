@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Gallery view dimens-->
+    <dimen name="dog_list_margin_start">8dp</dimen>
+    <dimen name="dog_list_margin_end">16dp</dimen>
+    <dimen name="dog_list_margin_bottom">8dp</dimen>
+    <dimen name="constraint_zero_dimen">0dp</dimen>
+
+    <!-- Details view dimens-->
+    <dimen name="details_screen_back_button_width">40dp</dimen>
+    <dimen name="details_screen_back_button_height">40dp</dimen>
+    <dimen name="details_screen_back_button_padding">8dp</dimen>
+    <dimen name="details_screen_back_button_margin_start">16dp</dimen>
+    <dimen name="details_screen_back_button_margin_top">20dp</dimen>
+    <dimen name="dog_details_breed_name_margin_top">20dp</dimen>
+    <dimen name="dog_details_breed_name_margin_start">24dp</dimen>
+    <dimen name="dog_details_breed_name_margin_end">24dp</dimen>
+    <dimen name="dog_details_breed_description_line_space">4dp</dimen>
+    <dimen name="dog_details_breed_description_margin_top">16dp</dimen>
+    <dimen name="dog_details_breed_description_margin_start">24dp</dimen>
+    <dimen name="dog_details_breed_description_margin_end">24dp</dimen>
+    <dimen name="dog_details_breed_description_padding_bottom">8dp</dimen>
+
+    <!-- List item view dimens-->
+    <dimen name="list_item_card_margin_start">8dp</dimen>
+    <dimen name="list_item_card_margin_top">8dp</dimen>
+    <dimen name="list_item_dog_image_view_height">140dp</dimen>
+    <dimen name="list_item_dog_breed_name_margin_top">8dp</dimen>
+    <dimen name="list_item_dog_breed_name_margin_start">8dp</dimen>
+    <dimen name="list_item_dog_breed_name_margin_end">8dp</dimen>
+    <dimen name="list_item_dog_breed_description_margin_start">8dp</dimen>
+    <dimen name="list_item_dog_breed_description_margin_end">8dp</dimen>
+    <dimen name="list_item_dog_breed_description_padding_bottom">8dp</dimen>
+</resources>

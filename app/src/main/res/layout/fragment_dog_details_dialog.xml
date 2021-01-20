@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feature.dogdetails.DogDetailsDialogFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/dog_details_preview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/constraint_zero_dimen"
+            android:scaleType="center"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.42"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/dog_details_back_button"
+            android:layout_width="@dimen/details_screen_back_button_width"
+            android:layout_height="@dimen/details_screen_back_button_height"
+            android:background="@drawable/round_off_white_background"
+            android:src="@drawable/left_arrow"
+            android:scaleType="centerInside"
+            android:padding="@dimen/details_screen_back_button_padding"
+            android:layout_marginStart="@dimen/details_screen_back_button_margin_start"
+            android:layout_marginTop="@dimen/details_screen_back_button_margin_top"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/dog_details_breed_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_black"
+            android:textSize="24sp"
+            android:text="@string/dog_description_title"
+            android:layout_marginTop="@dimen/dog_details_breed_name_margin_top"
+            android:layout_marginStart="@dimen/dog_details_breed_name_margin_start"
+            android:layout_marginEnd="@dimen/dog_details_breed_name_margin_end"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dog_details_preview" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/dog_details_breed_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="@string/dog_description"
+            android:lineSpacingExtra="@dimen/dog_details_breed_description_line_space"
+            android:layout_marginTop="@dimen/dog_details_breed_description_margin_top"
+            android:layout_marginStart="@dimen/dog_details_breed_description_margin_start"
+            android:layout_marginEnd="@dimen/dog_details_breed_description_margin_end"
+            android:paddingBottom="@dimen/dog_details_breed_description_padding_bottom"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dog_details_breed_name" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
