@@ -4,4 +4,6 @@
     <string name="dog_description_title">This is a really \ncute pug!</string>
     <string name="list_item_title">Dog %d</string>
     <string name="list_item_description">It\'s a cute dog</string>
+    <string name="pet">Pet</string>
+    <string name="pet_thumbnail">Pet Thumbnail</string>
 </resources>

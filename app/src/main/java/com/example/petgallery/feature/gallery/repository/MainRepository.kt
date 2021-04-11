@@ -1,7 +1,8 @@
 package com.example.petgallery.feature.gallery.repository
 
-import com.example.petgallery.network.ApiHelper
+import com.example.petgallery.network.ApiService
+import javax.inject.Inject
 
-class MainRepository(private val apiHelper: ApiHelper) {
-    suspend fun getDogsList() = apiHelper.getDogsList()
+class MainRepository @Inject constructor(private val apiService: ApiService) {
+    suspend fun getDogsList() = apiService.getDogsList()
 }

@@ -19,16 +19,17 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:id="@+id/list_item_dog_image_view"
+            android:id="@+id/list_item_pet_image_view"
             android:layout_width="match_parent"
             android:layout_height="@dimen/list_item_dog_image_view_height"
             android:scaleType="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/pet_thumbnail" />
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/list_item_dog_breed_name"
+            android:id="@+id/list_item_pet_breed_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:maxLines="1"
@@ -40,10 +41,9 @@
             android:layout_marginEnd="@dimen/list_item_dog_breed_name_margin_end"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/list_item_dog_image_view" />
+            app:layout_constraintTop_toBottomOf="@id/list_item_pet_image_view" />
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/list_item_dog_breed_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:maxLines="1"
@@ -54,7 +54,7 @@
             android:paddingBottom="@dimen/list_item_dog_breed_description_padding_bottom"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/list_item_dog_breed_name" />
+            app:layout_constraintTop_toBottomOf="@id/list_item_pet_breed_name" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
